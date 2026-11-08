@@ -1,0 +1,11 @@
+interface:
+  display_name: "Anki aus Folien"
+  short_description: "Wesentliche Anki-Karten mit Quellen und Screenshot-ZIP"
+  default_prompt: "Nutze $anki-aus-folien, um aus dieser Vorlesungs-PDF nur die für Verständnis und Anwendung wesentlichen Frage-Antwort-Karten auszuwählen, in mindestens zwei Durchgängen vollständig zu prüfen und mit genauen Einzelquellen als Anki-Importdatei zu liefern, hilfreiche Originalausschnitte als eindeutig benanntes Screenshot-ZIP mit Kartenzuordnung beizulegen und den Chat passend zu benennen."
+policy:
+  products:
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  allow_implicit_invocation: true
