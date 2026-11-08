@@ -77,7 +77,3 @@ Sharing this skill doesn't give you permission to publish someone else's slides,
 - `README.md`: this guide.
 - `anki-aus-folien/SKILL.md`: the workflow and checking rules.
 - `anki-aus-folien/agents/openai.yaml`: display metadata and a default prompt.
-
-## License
-
-No license has been chosen yet. Public availability alone does not grant a license to reuse the material.
