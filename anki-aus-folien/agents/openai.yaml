@@ -1,11 +1,17 @@
 interface:
-  display_name: "Anki aus Folien"
-  short_description: "Wesentliche Anki-Karten mit Quellen und Screenshot-ZIP"
-  default_prompt: "Nutze $anki-aus-folien, um aus dieser Vorlesungs-PDF nur die für Verständnis und Anwendung wesentlichen Frage-Antwort-Karten auszuwählen, in mindestens zwei Durchgängen vollständig zu prüfen und mit genauen Einzelquellen als Anki-Importdatei zu liefern, hilfreiche Originalausschnitte als eindeutig benanntes Screenshot-ZIP mit Kartenzuordnung beizulegen und den Chat passend zu benennen."
+  display_name: Anki aus Folien
+  short_description: Fokussierte Anki-Karten mit Übungs- und Klausurabgleich
+  default_prompt: Nutze $anki-aus-folien, um aus dieser Vorlesung wesentliche Frage-Antwort-Karten
+    mit genauen Vorlesungsbelegen zu erstellen, passende zugängliche Übungen und Altklausuren
+    des Modulprojekts zur Priorisierung heranzuziehen, ohne Klausurinhalte vorherzusagen,
+    alle Karten in mindestens zwei Durchgängen zu prüfen und die Anki-Datei samt sinnvollem
+    Screenshot-ZIP mit Zuordnung zu liefern und den Chat passend zu benennen.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
 policy:
   products:
-  - "chatgpt"
-  - "codex"
-  - "api"
-  - "atlas"
+  - chatgpt
+  - codex
+  - api
+  - atlas
   allow_implicit_invocation: true
